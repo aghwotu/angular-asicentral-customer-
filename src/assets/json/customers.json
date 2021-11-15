@@ -1,0 +1,90 @@
+[
+  {
+    "companyName": "Greenstone Financial",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#91c53f",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Think Company",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#3464ae",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Penn Medicine",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#164683",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "SXSW, LLC",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#f9c319",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Masterwork Realty, LLC",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#e21c6d",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Infinite Flame",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#cf3064",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Elastic, LLC",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#3da19a",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Dentitect",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#4e8eaf",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Penn Medicine",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#2b71da",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "SXSW, LLC",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#f9c319",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  },
+  {
+    "companyName": "Greenstone Financial",
+    "customerName": "John Snow",
+    "companyAddress": "123 Main St. Philadelphia, PA, 19147",
+    "customerEmail": "jsnow@company.com",
+    "brandColor": "#e21c6d",
+    "logoUrl": "https://www.asicentral.com/images/2016/header/asi-logo-white.png"
+  }
+]

@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+:root {
+  --grey: #747c8a;
+  --body-background: #f7f8f9;
+  --input-search-focus: #abaeb4;
+  --input-search-placeholder: #ced1d4;
+  --icon-add-customer: #2b71da;
+  --icon-search-customer: #7c828f;
+  --card-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+body {
+  background-color: var(--body-background) !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  text-indent: 30px;
+  color: var(--grey);
+  height: 43px;
+}
+
+.search input::placeholder {
+  color: var(--input-search-placeholder);
+}
+
+.search input:focus {
+  box-shadow: none;
+  border-color: var(--input-search-focus);
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  color: var(--icon-search-customer);
+}
+
+#add__customer {
+  background-color: transparent;
+  border-style: dashed;
+  padding: 1.99rem !important;
+}
+
+.customer__card {
+  border-top-width: thick !important;
+  border-radius: 6px !important;
+  box-shadow: var(--card-shadow) !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+
+#icon__addcusomter--color {
+  color: var(--icon-add-customer) !important;
+}
+.customer__card .company-logo {
+  width: 45px;
+  height: 45px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.customer__card .customer-heading {
+  height: 45px;
+}
+
+.customer-body {
+  padding-left: 9px;
+}

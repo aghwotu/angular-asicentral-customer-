@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-md-4 mb-4">
+    <div class="card clickable p-4" id="add__customer">
+      <div class="card-body d-flex justify-content-center align-items-center">
+        <i
+          class="fa fa-plus-circle fa-2x pe-2"
+          id="icon__addcusomter--color"
+        ></i>
+        <span>Create a new Customer</span>
+      </div>
+    </div>
+  </div>
+
+  <ng-container *ngFor="let customer of customers">
+    <div class="col-md-4 mb-4">
+      <div
+        class="card customer__card"
+        [ngStyle]="{ 'border-top-color': customer.brandColor }"
+      >
+        <div class="card-body d-flex flex-column">
+          <div class="customer-heading d-flex">
+            <div
+              class="company-logo align-self-center"
+              [style]="'background-image: url(' + customer.logoUrl + ');'"
+              [ngStyle]="{
+                'background-color': customer.brandColor
+              }"
+            ></div>
+            <div class="d-flex flex-column customer-body">
+              <div class="company-name">{{ customer.companyName }}</div>
+              <div class="customer-name">{{ customer.customerName }}</div>
+            </div>
+          </div>
+          <div class="company-address">
+            {{ customer.companyAddress }}
+          </div>
+          <div class="company-email">{{ customer.customerEmail }}</div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
