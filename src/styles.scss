@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --grey: #747c8a;
@@ -13,6 +14,7 @@
 
 body {
   background-color: var(--body-background) !important;
+  font-family: "Poppins", sans-serif;
 }
 
 .clickable {
@@ -48,7 +50,7 @@ body {
 #add__customer {
   background-color: transparent;
   border-style: dashed;
-  padding: 1.99rem !important;
+  padding: 2.2rem !important;
 }
 
 .customer__card {
@@ -76,4 +78,18 @@ body {
 
 .customer-body {
   padding-left: 9px;
+}
+
+.customer-name {
+  color: #a6aab4;
+}
+
+.company-name {
+  font-weight: 800;
+}
+
+.company-address,
+.company-email {
+  color: #888e9b;
+  font-weight: 500;
 }
